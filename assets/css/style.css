@@ -1,0 +1,568 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  cursor:cell;
+  letter-spacing: 0.1em;
+  height: 100%;
+  font-size: 20px;
+}
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.toptittle {
+  overflow: hidden;
+  transform: translate(-100%, 0);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  color: #aa8f7b;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* 
+
+.toptittle {
+  display: block;
+  transform: translate(100%, 0);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+} */
+
+/* .toptittle,
+.toptittle {
+  transform: translate(0, 0);
+} */ 
+
+/* .sentence {
+  overflow: hidden;
+  transform: translate(-100%, 0);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  font-family: "Yu Gothic Medium";
+  font-size: 16px;
+  text-align: center;
+} */
+/* 
+.sentence span {
+  display: block;
+  transform: translate(100%, 0);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+.sentence.-visible,
+.sentence.-visible span {
+  transform: translate(0, 0);
+} */
+
+:root {
+  --link-color: #ff0090;
+  --main-color: #ff407c;
+  --text-color: #210707;
+}
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+.div{
+  border-radius: 30%;
+  display: flex;
+  margin: 20px;
+  font-size: 20px;
+  overflow: hidden;
+  column-count: 2;
+  width: fit-content;
+  /* column-gap: 2em; */
+  margin: auto;
+  /*左右アニメーションで画面からはみ出る際に出る横スクロールバーを隠す*/
+}
+
+/*========= 流れるテキスト ===============*/
+
+/*全共通*/
+
+/* .slide-in {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.slide-in_inner {
+  display: inline-block;
+
+}
+
+左右のアニメーション */
+/* .rightAnime{
+    opacity: 0;/*事前に透過0にして消しておく*/
+
+
+/* .slideAnimeLeftRight {
+  animation-name:slideTextX100;
+  animation-duration:0.8s;
+  animation-fill-mode:forwards;
+    opacity: 0;
+} */ 
+
+/* .slideAnimeRightLeft {
+  animation-name:slideTextX-100;
+  animation-duration:0.8s;
+  animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+
+@keyframes slideTextX-100 {
+  from {
+  transform: translateX(100%);/*要素を右の枠外に移動*/
+    /* opacity: 0;
+  }
+
+  to {
+  transform: translateX(0);要素を元の位置に移動
+    /* opacity: 1; */
+ 
+.main-img{
+  column-count: 2;
+  width: fit-content;
+  column-gap: 2em;
+  margin: 0 ;
+  size: 50px;
+}
+
+.main01{
+  border-radius: 50%;
+}
+
+.main02{
+  border-radius: 50%;
+}
+
+.main03{
+  border-radius: 50%;
+}
+.main04{
+  border-radius: 50%;
+}
+
+/* 背景 */
+body{
+  background-image: url(../img/watercolor_00.jpeg);
+  background-attachment: fixed;
+  background-repeat: repeat;
+  /* width: max-content; */
+  /* width:600px; */
+   padding:4em;
+   margin : 0 auto;
+   min-height: 100vh;
+}
+   
+
+/* 
+ヘッダー */
+#top-page{
+  margin-top: 0;
+  background-image: url(../img/pink_00061\ \(1\).jpg);
+  border-radius: 60pc ;
+  margin-bottom: 20px;
+  text-align: center;
+  width:  auto;
+}
+
+/* タイトル文字 */
+.toptittle{
+  text-align: center;
+  color: #F1EEEC;
+  font-weight: bold;
+  /* background-image: url(../img/tree\ \(1\).jpeg); */
+  border: #ffffff 100px;
+  text-shadow: #340619 0 10px ;
+  font-size: 100px;
+  padding-top: 10px;
+  /* padding-bottom: 100px; */
+  margin-top: 0;
+  width: 100%;
+  /* box-decoration-break: clone; */
+}
+
+
+
+/* .main-img{ */
+/*  
+
+.main01{
+  width: 1500px;
+  height: max-content;
+} */
+/* 
+.main02{
+
+}
+
+.main03{
+
+}
+
+.main04{
+
+} */
+
+/*==================================================
+スライダー
+===================================*/
+
+  /* display: flex;
+  gap: 1px;
+  max-width: auto;
+  height: auto;
+  width: 100%;
+ } */
+/* 
+ .slider img { */
+  /* height:auto; */
+  /* object-fit: cover;
+  margin-bottom: 80px; */
+ /* } */
+
+ /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+ .slider .slick-slide {
+  margin:0 10px;/*スライド左右の余白調整*/
+ }
+ /* ーーーーー */
+
+
+ /* 活動理念テキスト */
+ .motto{
+  margin-top: 10px;
+  text-align: center;
+  font-size: large;
+  font-size: 50px;
+  letter-spacing: 0em;
+ }
+
+
+/*======================== *//* 教育格差 ==================*/
+#about__educate{
+  color: #fefdfd;
+  background-image: url(../img/pink_00061\ \(1\).jpg);
+  background-position: 70px;
+  text-align: center;
+  border-radius:  80px ;
+  letter-spacing: 0.08em;
+  margin-top: 100px;
+  padding: 0.8px  ;
+  align-items: center;
+   /* text-shadow: #2dabff 0 0 10px  ; */
+  font-size: large;
+  /* box-shadow: #4000ff 0 0 5px 0  ; */
+  width: auto ;
+}
+
+
+.about-educate{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.活動理念{
+  font-size: 20px;
+}
+.educate03{
+  margin-bottom: 50px;
+}
+
+/* ==================私たちにできること ==================*/
+#about__we-can{
+  color: #fefdfd;
+  background-color: #c68c8c;
+  background-image: url(../img/pink_00061\ \(1\).jpg);
+  text-align: center;
+  border: palevioletred 30px;
+  border-radius: 60pc;
+  letter-spacing: 0.05em;
+  margin-top: 80px;
+  padding:  20px ;
+   /* box-shadow: #3c58f7 0 10px 10px; */
+   /* text-shadow: #2dabff 0 0 10px  ; */
+  font-size: large;
+  /* font-weight: 200; */
+}
+
+
+.we-can > img{
+  display: flex;
+  width: 400px;
+  height:200px 0;
+  margin:0 auto;
+  padding: 0 30px;
+
+}
+
+.we-can01 {
+  margin: 50px;
+  text-align: center;
+  size: 80px; 
+  text-decoration: none;
+  transition: 0.5s;
+  display: block;
+ 
+}
+  
+.we-can01pc{
+  border-radius: 50%;
+  transition: 0.5s;
+  margin-bottom: 30px;
+}
+
+.we-can02{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.we-can02pc{
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.we-can03{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* .we-can04{
+  margin-top: 30px;
+  margin-bottom: 30px;
+} */
+
+.we-can{
+  text-align: center;
+  size: 80px; 
+}
+
+/* ==================現地の生活================== */
+#about__life{
+  color: #fefdfd;
+  background-image: url(../img/pink_00061\ \(1\).jpg);
+  text-align: center;
+  border: palevioletred 30px;
+  border-radius: 60pc;
+  letter-spacing: 0.05em;
+  margin-top: 80px;
+  padding: 10px;
+  /* box-shadow: #3c58f7 0 10px 10px; */
+  text-shadow: #f52c7f 0 10px 10px ;
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+
+.life-ptc {
+  margin-top: 50px;
+  border-radius:35pc ;
+}
+
+.life-explain01{
+  margin-top: 80px;
+  padding: 10px;
+  border-radius:35pc ;
+}
+
+/* ボタン */
+.hostel-link-button{
+  color: rgb(255, 255, 255);
+  background-image: url(../img/pink_00061\ \(1\).jpg);
+  font-size: 13px;
+  font-display: center;
+  height: 100px;;
+  width: 800px;
+  border-radius: 60pc;
+  padding: 5px 150px;
+}
+
+
+.hostel-link-button > img{
+  height: 150px;
+  margin: 40px;
+}
+
+
+/* ==================活動内容================== */
+#about__active{
+  color: #fefdfd;
+  background-image: url(../img/pink_00061\ \(1\).jpg);
+  text-align: center;
+  border: palevioletred 30px;
+  border-radius: 60pc;
+  letter-spacing: 0.05em;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding: 10px;
+  /* box-shadow: #3c58f7 0 10px 10px; */
+  /* text-shadow: #2dabff 0 0 10px  ; */
+  font-size: large;
+  /* box-shadow: #4000ff 0 0 5px 0  ; */
+}
+
+.about-active{
+  column-count: 2;
+  width: fit-content;
+  column-gap: 2em;
+  margin: auto;
+}
+
+.about_active_item01  >img{
+  border-radius: 60pc;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* padding: 10px; */
+  border-radius:40 ;
+  text-decoration: none;
+  transition: 0.5s;
+  width: 500px;
+  height: 250px;
+  box-shadow: #4000ff 0 0 5px 0  ;
+  }
+
+  .about_active_item02  >img{
+    border-radius: 60pc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    border-radius:40 ;
+    text-decoration: none;
+    transition: 0.5s;
+    /* box-shadow: #3a7bff 0 10px ; */
+    width: 500px;
+   height: 250px;
+   box-shadow: #fe6cf7 0 0 5px 0  ;
+  }
+   
+  
+    .about_active_item03  >img{
+      border-radius: 60pc;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      /* padding: 10px; */
+      border-radius:40 ;
+      text-decoration: none;
+      transition: 0.5s;
+      box-shadow: #df1be3 0 0 5px 0  ;
+      width: 500px;
+      height: 250px;
+  }
+      
+      .about_active_item04  >img{
+        border-radius: 60pc;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* padding: 10px; */
+        border-radius:40 ;
+        text-decoration: none;
+        transition: 0.5s;
+        box-shadow: #6b14ec 0 0 5px 0  ;
+        width: 500px;
+        height: 250px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+       }
+               
+  
+.youtebe{
+  /* background-color: #fffefe; */
+  
+  /* border-radius: 60pc ; */
+  /* width: 500px;
+  height: 250px; */
+  margin-top: 50px;
+  padding: auto;
+
+ }
+/*==============================================ーーーーーーーーーー */ 
+
+/* ==================感想================== */
+#about__imp{
+  color: #fefdfd;
+  background-image: url(../img/pink_00061\ \(1\).jpg);
+  text-align: center;
+  border: palevioletred 30px;
+  border-radius: 60pc;
+  letter-spacing: 0.05em;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding: 10px auto;
+  /* text-shadow: #2dabff 0 0 10px  ; */
+  margin-top: 30px;
+  /* margin-bottom: 20px; */
+  border-radius: 60pc;
+  letter-spacing: 0.05em;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.impression01  {
+  border-radius:10% ;
+  margin-bottom: 20px;
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.imp{
+  border-radius: 20% ;
+}
+
+
+
+
+
+/*--------------------------------
+ フッター
+---------------------------------*/
+.footer {
+  background-image: url(../img/pink_00061\ \(1\).jpg);
+  border-radius: 60pc ;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* background-color: #211914; */
+  unicode-bidi: isolate;
+  align-items: center;
+  justify-content: center;
+  translate:inherit;
+  border-radius: 60pc ;
+  margin-top: 30px;
+}
+  
+
+ .footer-nav {
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  translate:inherit;
+  
+
+ }
+
+ .footer-nav__list {
+  display: flex;
+  column-gap: 30px;
+ }
+
+ .footer-nav__item {
+  font-size: 80px;
+  font-weight: 30px;
+  line-height: 6pc;
+  letter-spacing: 30px;
+ }
+
+ .footer-nav__link {
+  color: var(--text-color);
+  color: #ffffff;
+  text-decoration: none;
+ }
+
+ .footer__copyright {
+  font-size: 30px;
+  letter-spacing: 0.03em;
+ }
+
+
